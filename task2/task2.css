@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list2 ul{
+    background-color: gold;
+}
+
+.border{
+    border: 2px solid violet;
+    color: red;
+}
+
+.bluebackp{
+    background-color: blue;
+}
+
+.rengliyazilar .blueback{
+    background-color: blue;
+}
+
+.rengliyazilar .bluecolor{
+    color: blue;
+}
+
+.rengliyazilar .greeback{
+    background-color: green;
+}
+
+.rengliyazilar .pinkcolor{
+    color: pink;
+}
+
+.rengliyazilar .greenback{
+    background-color: green;
+}
+
+.link .yellowlink{
+    background-color: yellow;
+}

@@ -1,0 +1,146 @@
+/* 1. universal selector */
+* { 
+    box-sizing: border-box;
+}
+
+/* 2. type selector */
+h1, h2, h4, p {
+    font-family: Arial, sans-serif;
+}
+
+/* 3.class selectors */
+.heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.headerlinks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.headerlinks li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.headerlinks a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* 4. id selector */
+#domain {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+/* 5. descendant selector */
+.about p {
+    line-height: 1.5;
+}
+
+/* 6. child selector */
+.about2 > div {
+    margin-bottom: 20px;
+}
+
+/* 7. pseudo-class selectors */
+.headerlinks a:hover {
+    color: #0056b3;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* 8. attribute selector */
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 9. grouping selector */
+h2, h4 {
+    color: #333;
+}
+
+/* 10. adjacent sibling selector */
+h2 + input {
+    margin-top: 10px;
+}
+
+/* 11. general sibling selector */
+.about2 div + div {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+/* 12. pseudo-element selector */
+.footer::after {
+    content: "Thank you for visiting!";
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* 13. nth-child selector */
+.footer ul li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* 14. nth-of-type selector */
+.about2 div:nth-of-type(2) {
+    background-color: #f2f2f2;
+}
+
+/* 15. not selector */
+.footer ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* 16. placeholder selector */
+input::placeholder {
+    color: #aaa;
+}
+
+/* 17. flexbox for header links */
+.headerlinks {
+    display: flex;
+    justify-content: center;
+}
+
+/* 18. button styling */
+.get-started {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 19. Last Child Selector */
+.headerlinks ul li:last-child {
+    font-weight: bold;
+}
+
+/* 20. First Child Selector */
+.about2 > div:first-child {
+    border-top: 2px solid #4CAF50; /* Highlight the first service */
+}
+
+/* 21. Pseudo-class for Focus */
+input:focus {
+    border-color: #007BFF;
+    outline: none; /* Remove default outline */
+}
+
+
+/* 22. Hover effect for footer links */
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: #007BFF;
+}
