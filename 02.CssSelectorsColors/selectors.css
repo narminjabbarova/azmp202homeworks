@@ -46,7 +46,7 @@ h1, h2, h4, p {
     margin-bottom: 20px;
 }
 
-/* 7. pseudo-class selectors */
+/* 7. pseudo class selectors */
 .headerlinks a:hover {
     color: #0056b3;
 }
@@ -77,7 +77,7 @@ h2 + input {
     padding-top: 20px;
 }
 
-/* 12. pseudo-element selector */
+/* 12. pseudo element selector */
 .footer::after {
     content: "Thank you for visiting!";
     display: block;
@@ -122,24 +122,24 @@ input::placeholder {
     cursor: pointer;
 }
 
-/* 19. Last Child Selector */
+/* 19. last child selector */
 .headerlinks ul li:last-child {
     font-weight: bold;
 }
 
-/* 20. First Child Selector */
+/* 20. first child selector */
 .about2 > div:first-child {
     border-top: 2px solid #4CAF50; /* Highlight the first service */
 }
 
-/* 21. Pseudo-class for Focus */
+/* 21. pseudo class for focus */
 input:focus {
     border-color: #007BFF;
     outline: none; /* Remove default outline */
 }
 
 
-/* 22. Hover effect for footer links */
+/* 22. hover effect for footer links */
 .footer ul li a:hover {
     text-decoration: underline;
     color: #007BFF;

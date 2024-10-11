@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    width: 30%; 
+    height: 300px; 
+    position: relative;
+    background-color: transparent; 
+    transition: background-color 0.3s; 
+    margin: 10px; 
+}
+
+.cards:hover .card,
+.cards:focus-within .card { 
+    background-color: palevioletred; 
+}
+
+.icon {
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+    transition: color 0.3s; 
+}
+
+.card:hover .icon,
+.card:focus-within .icon {
+    color: white; 
+}
+
+h1 {
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.card:hover h1,
+.card:focus-within h1 {
+    color: white; 
+}
+
+.text {
+    margin: 0 0 20px 0; 
+}
+
+.card:hover .text,
+.card:focus-within .text {
+    color: white; 
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+}
+
+.card:hover button,
+.card:focus-within button {
+    background-color: white; 
+    color: palevioletred;
+}
