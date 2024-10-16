@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    width: 100%;
+    padding: 20px 350px;
+    border-bottom: 1px solid rgb(154, 154, 154);  
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+}
+#conpage{
+    display: flex;
+    padding-right: 140px;
+}
+.leftside{
+    padding: 60px 200px 600px 30px;
+}
+.leftside li{
+    font-size: 15px;
+    color: black;
+    margin: 7px 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+nav li:hover{
+    color: rgb(78, 78, 78);
+}
+.leftside li:hover{
+    color: rgb(78, 78, 78);
+}
+.leftside span{
+    color: gray ;
+}
+.box{
+    width: 32%;
+    position: relative;
+    cursor: pointer;
+}
+.box img{
+    width: 100%;
+}
+.box span{
+    position: absolute;
+}
+
+.box h1{
+    font-size: 18px;
+    padding-left: 16x;
+}
+.box p{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+    left: 15px;
+}
+.box span{
+    bottom: 53px;
+    right: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-right: 80px;
+    gap: 1px;
+}

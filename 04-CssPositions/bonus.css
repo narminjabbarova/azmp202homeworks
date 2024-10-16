@@ -4,15 +4,20 @@
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-header{
-    width: 20px;
-    height: 80px; 
+body{
+    padding-bottom: 200px;
+    height: 200vh;
 }
 
-.text-a{
+nav{
+    color: green;
     background-color: black;
+    padding-bottom: 20px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+
+section{
+    padding-bottom: 60px;
 }
