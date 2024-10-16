@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+}
+
+.wrapper{
+width: 40%;
+height: 60vh;
+border: 3px solid green;
+background-color: pink;
+margin: 100px auto;
+position: relative;
+}
+.wrapper .boxa{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* top: 20px;
+    left: 20px; */
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}
+
+.wrapper .boxb{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 7;
+}
+
+.wrapper .boxc{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+
+}
+
+.wrapper .boxd{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: sticky;
+    top: 0;
+    margin-left: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper .boxe{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}
+
+.footbox{
+    position: relative;
+}
+.footbox .boxf{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin-left: 90%;
+    position: fixed; 
+    right: 0; 
+    bottom: 20%; 
+    z-index: 100;
+    
+}
