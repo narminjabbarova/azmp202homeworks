@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icons i{
+  padding: 6px;
+  background-color: rgba(var(--bs-primary-rgb));
+  color: white;
+  font-size: 40px;
+  border-radius: 6px;
+  text-align: center;
+}
