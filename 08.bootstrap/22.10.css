@@ -5,10 +5,17 @@
 }
 
 .icons i{
-  padding: 6px;
+  padding: 8px;
   background-color: rgba(var(--bs-primary-rgb));
   color: white;
   font-size: 40px;
   border-radius: 6px;
   text-align: center;
+}
+.envelope i{
+  padding: 10px;
+  background-color: rgba(var(--bs-primary-rgb));
+  color: white;
+  font-size: 40px;
+  border-radius: 6px;
 }
