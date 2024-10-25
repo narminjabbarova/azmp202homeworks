@@ -1,0 +1,101 @@
+
+
+  header{
+    @include center(space-between, center);
+      background-color: $dark-blue;
+      padding: 10px 130px;
+      .contact{
+        button{
+          @extend %button;
+          background-color: transparent;
+          border: 0.7px solid white;
+        }
+      }
+
+    nav{
+        @include center(center,center);
+        padding: 20px;
+        justify-content: space-between;
+        ul{
+          display: flex;
+          gap: 10px;
+          a{
+            color: white;
+          }
+        }
+      }
+}
+
+#banner{
+  padding: 7% 10%;
+  background-color: $dark-blue;
+  h1, p{
+    text-align: center;
+    color: $white;
+  }
+
+  h1{
+    font-size: 72px;
+    font-weight: 800;
+    padding-bottom: 3%;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+#images-nav{
+  @include center(center, center);
+      background-color: $nude;
+      padding: 10px 130px;
+      ul{
+        display: flex;
+        gap: 60px;
+        padding: 5% 0;
+        li{
+          cursor: pointer;
+          color: $dark-brown;
+          font-size: 16px;
+          font-weight: 400;
+
+        }
+      }
+}
+
+#images{
+  background-color: $nude;
+  .container{
+    padding-top: 0;
+    .row{
+      .col-12{
+        .pic-bit{
+          width: 100%;
+          position: relative;
+          p{
+            position: absolute;
+            left: 50px;
+            bottom: 120px;
+            background-color: $white;
+            height: 38px;
+            width: 102px;
+            border-radius: 20px;
+            color: black;
+            @include center(center, center);
+          }
+          h2{
+            position: absolute;
+            left: 50px;
+            bottom: 40px;
+            font-size: 56px;
+            font-weight: 800;
+            color: $white;
+          }
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

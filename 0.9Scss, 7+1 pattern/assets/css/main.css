@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Epilogue", sans-serif;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+  padding: 1rem;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+  padding: 1rem;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 1rem;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+  padding: 1rem;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+  padding: 1rem;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 1rem;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+  padding: 1rem;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+  padding: 1rem;
+}
+
+.col-9 {
+  width: 75%;
+  padding: 1rem;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+  padding: 1rem;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+  padding: 1rem;
+}
+
+.col-12 {
+  width: 100%;
+  padding: 1rem;
+}
+
+.p-left-0 {
+  padding-left: 0;
+}
+
+/* .box {
+  background-color: orange;
+  border: 2px solid;
+} */
+header .contact button {
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(239, 109, 88);
+  border: 1px solid rgb(239, 109, 88);
+  font-weight: 900;
+  width: 154px;
+  height: 48px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #28293E;
+  padding: 10px 130px;
+}
+header .contact button {
+  background-color: transparent;
+  border: 0.7px solid white;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  gap: 10px;
+}
+header nav ul a {
+  color: white;
+}
+
+#banner {
+  padding: 7% 10%;
+  background-color: #28293E;
+}
+#banner h1, #banner p {
+  text-align: center;
+  color: #FFFFFF;
+}
+#banner h1 {
+  font-size: 72px;
+  font-weight: 800;
+  padding-bottom: 3%;
+}
+#banner p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#images-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 235, 205);
+  padding: 10px 130px;
+}
+#images-nav ul {
+  display: flex;
+  gap: 60px;
+  padding: 5% 0;
+}
+#images-nav ul li {
+  cursor: pointer;
+  color: rgba(57, 20, 0, 0.64);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#images {
+  background-color: rgb(252, 235, 205);
+}
+#images .container {
+  padding-top: 0;
+}
+#images .container .row .col-12 .pic-bit {
+  width: 100%;
+  position: relative;
+}
+#images .container .row .col-12 .pic-bit p {
+  position: absolute;
+  left: 50px;
+  bottom: 120px;
+  background-color: #FFFFFF;
+  height: 38px;
+  width: 102px;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#images .container .row .col-12 .pic-bit h2 {
+  position: absolute;
+  left: 50px;
+  bottom: 40px;
+  font-size: 56px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+#images .container .row .col-12 .pic-bit img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
