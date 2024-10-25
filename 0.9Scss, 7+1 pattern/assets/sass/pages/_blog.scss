@@ -1,0 +1,113 @@
+#upper-banner{
+  padding: 5%;
+  background-color: $nude;
+  .container{
+    .row{
+      .col-6{
+        .card{
+          p{
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            font-size: 20px;
+            font-weight: 400;
+            color: $black;
+            padding-bottom: 3%;
+          }
+          h3{
+            font-size: 40px;
+            font-weight: 800;
+            color: $black;
+            padding-bottom: 3%;
+          }
+          small{
+            font-size: 16px;
+            font-weight: 400;
+            color: $dark-gray;
+            padding-bottom: 3%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+#banner{
+  background-color: $nude;
+
+  .buttonn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    .row{
+      .col-4{
+        .card-1{
+          p{
+            font-size: 20px;
+            font-weight: 400;
+            color: $black;
+            padding-bottom: 3%;
+            width: 100%;
+            display: flex;
+            justify-content: start;
+          }
+          h4{
+            @extend %h4text;
+            padding-bottom: 3%;
+          }
+          small{
+            font-size: 16px;
+            font-weight: 400;
+            color: $dark-gray;
+            padding-bottom: 3%;
+            width: 100%;
+            display: flex;
+            justify-content: start;
+          }
+        }
+      }
+    }
+  }
+}
+
+ button{
+    @extend %button;
+    background-color: $white;
+    color: $black;
+    border: 0.7px solid white;
+  }
+
+  #newsletter{
+    background-color: $nude;
+    padding: 5%;
+    .container{
+      display: flex;
+      justify-content: space-between;
+      h3{
+        font-size: 40px;
+        font-weight: 800;
+        color: $black;
+      }
+      form{
+        display: flex;
+        width: 50%;
+        gap: 10px;
+
+        input{
+          padding: 10px;
+          width: 80%;
+          padding: 1% 2%;
+          color: gray;
+          border-radius: 5px;
+          border: none;
+        }
+          
+      }
+    }
+  }
+
+
