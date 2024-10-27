@@ -1,17 +1,18 @@
 %h2text{
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 56px;
     color: white;
   }
   
   %h4text{
-    font-weight: 700px;
+    line-height: 32px;
+    font-weight: 700;
     font-size: 24px;
     color: black;
   }
   
   %h5text{
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     background: #EF6D58;
     ;
@@ -20,6 +21,6 @@
   
   %ptext{
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: rgb(199, 199, 199);
   }

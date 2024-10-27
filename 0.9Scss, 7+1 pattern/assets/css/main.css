@@ -55,6 +55,13 @@ table {
   border-spacing: 0;
 }
 
+#banner .container .row .col-4 .card-1 h4 {
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+}
+
 /* .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -143,7 +150,7 @@ table {
   background-color: orange;
   border: 2px solid;
 } */
-header .contact button {
+button, header .contact button {
   border-radius: 5px;
   color: white;
   background-color: rgb(239, 109, 88);
@@ -203,7 +210,7 @@ header nav ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(252, 235, 205);
+  background-color: rgb(253, 240, 233);
   padding: 10px 130px;
 }
 #images-nav ul {
@@ -219,7 +226,7 @@ header nav ul a {
 }
 
 #images {
-  background-color: rgb(252, 235, 205);
+  background-color: rgb(253, 240, 233);
 }
 #images .container {
   padding-top: 0;
@@ -251,4 +258,93 @@ header nav ul a {
 }
 #images .container .row .col-12 .pic-bit img {
   width: 100%;
+}
+
+#upper-banner {
+  padding: 5%;
+  background-color: rgb(253, 240, 233);
+}
+#upper-banner .container .row .col-6 .card p {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+  font-weight: 400;
+  color: #391400;
+  padding-bottom: 3%;
+}
+#upper-banner .container .row .col-6 .card h3 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #391400;
+  padding-bottom: 3%;
+}
+#upper-banner .container .row .col-6 .card small {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(128, 99, 84);
+  padding-bottom: 3%;
+}
+
+#banner {
+  background-color: rgb(253, 240, 233);
+}
+#banner .buttonn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#banner .container .row .col-4 .card-1 p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #391400;
+  padding-bottom: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+#banner .container .row .col-4 .card-1 h4 {
+  padding-bottom: 3%;
+}
+#banner .container .row .col-4 .card-1 small {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(128, 99, 84);
+  padding-bottom: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+button {
+  background-color: #FFFFFF;
+  color: #391400;
+  border: 0.7px solid white;
+}
+
+#newsletter {
+  background-color: rgb(253, 240, 233);
+  padding: 5%;
+}
+#newsletter .container {
+  display: flex;
+  justify-content: space-between;
+}
+#newsletter .container h3 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #391400;
+}
+#newsletter .container form {
+  display: flex;
+  width: 50%;
+  gap: 10px;
+}
+#newsletter .container form input {
+  padding: 10px;
+  width: 80%;
+  padding: 1% 2%;
+  color: gray;
+  border-radius: 5px;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
