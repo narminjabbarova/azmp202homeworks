@@ -1,0 +1,374 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#courses h1, #calc h1, #care h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #222222;
+}
+
+#courses .course-info h4, #care .card h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #222222;
+}
+
+#courses p, #calc p, #care .card p, #care p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #777777;
+}
+
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+  padding: 1rem;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+  padding: 1rem;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 1rem;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+  padding: 1rem;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+  padding: 1rem;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 1rem;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+  padding: 1rem;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+  padding: 1rem;
+}
+
+.col-9 {
+  width: 75%;
+  padding: 1rem;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+  padding: 1rem;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+  padding: 1rem;
+}
+
+.col-12 {
+  width: 100%;
+  padding: 1rem;
+}
+
+.p-left-0 {
+  padding-left: 0;
+}
+
+/* .box {
+  background-color: orange;
+  border: 2px solid;
+} */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 130px;
+  border-bottom: 1px solid rgb(221, 219, 219);
+}
+header h4 {
+  font-weight: 500;
+}
+header .phone-section i {
+  background-color: #f6214b;
+  color: #fff;
+  padding: 33px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+  cursor: pointer;
+}
+header .logo-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+nav ul li :hover {
+  color: #f6214b;
+  transition: 0.2s;
+}
+nav ul a {
+  padding: 0 8px 0px 8px;
+  color: #222;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#trainer-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: black;
+  overflow: hidden;
+}
+#trainer-pic .pic-trainer {
+  width: 100%;
+  position: relative;
+}
+#trainer-pic .pic-trainer h1 {
+  position: absolute;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  left: 23%;
+  top: 25%;
+  text-transform: uppercase;
+  text-align: center;
+}
+#trainer-pic .pic-trainer h4 {
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  left: 43%;
+  top: 50%;
+  padding-top: 1.5%;
+}
+#trainer-pic .pic-trainer img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+#care {
+  padding: 7% 0;
+}
+#care h1 {
+  text-align: center;
+  padding-bottom: 1.5%;
+}
+#care p {
+  text-align: center;
+  padding-bottom: 5%;
+}
+#care .card {
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#care .card h4 {
+  padding-bottom: 8%;
+}
+#care .card p {
+  margin: 8% 0;
+}
+
+#calc {
+  background-color: #f6214b;
+  padding: 7% 0;
+}
+#calc h1 {
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  padding-bottom: 1.5%;
+}
+#calc p {
+  text-align: center;
+  color: white;
+  padding-bottom: 3.5%;
+}
+#calc .inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+#calc .bmi {
+  width: 250px;
+  padding: 12px;
+  border: 1px solid rgb(221, 219, 219);
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  outline: none;
+}
+#calc input::placeholder {
+  color: white;
+}
+#calc .bmi-btn {
+  width: 250px;
+  border: 1px solid white;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#calc .bmi-btn:hover {
+  background-color: transparent;
+}
+
+#courses {
+  padding: 9% 0;
+}
+#courses h1 {
+  text-align: center;
+  padding-bottom: 1.5%;
+}
+#courses p {
+  text-align: center;
+  padding-bottom: 5%;
+}
+#courses .first-img {
+  position: relative;
+}
+#courses .first-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#courses .badge {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  background-color: #ff385c;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 4px;
+}
+#courses .course-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+}
+#courses .course-info h4 {
+  font-weight: bold;
+}
+#courses .course-info .price {
+  color: #f6214b;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */

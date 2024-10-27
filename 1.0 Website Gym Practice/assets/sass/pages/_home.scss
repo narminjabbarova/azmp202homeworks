@@ -1,0 +1,250 @@
+header {
+    @include center(space-between, center);
+    background-color: white;
+    padding: 10px 130px;
+    border-bottom: 1px solid rgb(221, 219, 219);
+
+    h4 {
+        font-weight: 500;
+    }
+
+    .phone-section {
+
+        i {
+            background-color: $light-red;
+            color: #fff;
+            padding: 33px;
+            font-size: 18px;
+            font-weight: 700;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .logo-pic {
+        @include center(center, center);
+        padding: 20px;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+}
+
+nav {
+    @include center(center, center);
+    padding: 20px;
+
+    ul {
+        display: flex;
+        gap: 10px;
+
+        li {
+            & :hover {
+                color: $light-red;
+                transition: 0.2s;
+            }
+        }
+
+        a {
+            padding: 0 8px 0px 8px;
+            ;
+            color: #222;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+#trainer-pic {
+    @include center(center, center);
+    height: 100%;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+
+    .pic-trainer {
+        width: 100%;
+        position: relative;
+
+        h1 {
+            position: absolute;
+            font-size: 60px;
+            font-weight: 700;
+            color: white;
+            left: 23%;
+            top: 25%;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        h4 {
+            position: absolute;
+            font-size: 15px;
+            color: white;
+            text-transform: uppercase;
+            left: 43%;
+            top: 50%;
+            padding-top: 1.5%;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            opacity: 0.4;
+        }
+
+    }
+
+
+}
+
+#care {
+    padding: 7% 0;
+
+    h1 {
+        text-align: center;
+        @extend %h1text;
+        padding-bottom: 1.5%;
+    }
+
+    p {
+        text-align: center;
+        @extend %ptext;
+        padding-bottom: 5%;
+
+    }
+
+    .card {
+        padding: 40px 30px 30px 30px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+        text-align: center;
+        @include center(center, center);
+
+        h4 {
+            @extend %h4text;
+            padding-bottom: 8%
+        }
+
+        p {
+            @extend %ptext;
+            margin: 8% 0;
+        }
+    }
+}
+
+#calc {
+    background-color: $light-red;
+    padding: 7% 0;
+
+    h1 {
+        @extend %h1text;
+        text-align: center;
+        color: white;
+        text-transform: capitalize;
+        padding-bottom: 1.5%;
+    }
+
+    p {
+        text-align: center;
+        @extend %ptext;
+        color: white;
+        padding-bottom: 3.5%;
+    }
+
+    .inputs {
+        @include center(center, center);
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .bmi {
+        width: 250px;
+        padding: 12px;
+        border: 1px solid rgb(221, 219, 219);
+        background-color: transparent;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        outline: none;
+    }
+
+    input::placeholder {
+        color: white;
+    }
+
+    .bmi-btn {
+        width: 250px;
+        border: 1px solid white;
+        padding: 12px;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-size: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .bmi-btn:hover {
+        background-color: transparent;
+    }
+
+
+}
+
+#courses {
+    padding: 9% 0;
+
+    h1 {
+        @extend %h1text;
+        text-align: center;
+        padding-bottom: 1.5%;
+    }
+
+    p {
+        @extend %ptext;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .first-img {
+        position: relative;
+
+    }
+
+    .first-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .badge {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        background-color: #ff385c;
+        color: white;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: 300;
+        border-radius: 4px;
+    }
+
+    .course-info {
+        @include center(space-between, center);
+        padding: 15px;
+        cursor: pointer;
+
+        h4 {
+            @extend %h4text;
+            font-weight: bold;
+        }
+
+        .price {
+            color: $light-red;
+            font-weight: bold;
+        }
+    }
+}
