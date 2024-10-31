@@ -39,8 +39,18 @@
 // alert(count)
 
 // 4) for loop'undan istifadə edərək aşağıdakı console'da aşağıdakı görüntünü alın
+// for (let i = 0; i < 11; i++) {
+//     let hasil = i*i
+//     console.log(`${i}*${i} = ${hasil}`);
+// }
 
-
+// 5) for loop'undan istifadə edərək aşağıdakı console'da aşağıdakı görüntünü alın
+// for (let i = 0; i < 11; i++) {
+//     let ozu = i
+//     let kvadrat = i ** 2
+//     let kub = i**3
+//     console.log(`${ozu} ${kvadrat} ${kub}`);
+// }
 
 // 
 
@@ -81,13 +91,28 @@
 // 8)---------
 
 // let sampleNews = `As software developers, the natural tendency is to start developing applications based on your own hands-on experience and knowledge right away. However, overtime issues in the application arise, adaptations to changes, and new features happen.`;
-let count = 0;
-for (let i = 0; i < sampleNews.length; i++) {
-    if (sampleNews[i] == " "){
-        count++
-    }
+// let count = 0;
+// for (let i = 0; i < sampleNews.length; i++) {
+//     if (sampleNews[i] == " "){
+//         count++
+//     }
 
     
-}
+// }
 
-console.log(count);
+// console.log(count);
+
+// 10.31.2024
+// 14. Daxil olunan ədədin array-də olub olmadığını təyin edən proqram tərtib edin.
+
+// let array = [12,23,43,54,65,67,89,90,100];
+// let number = +prompt("enter number");
+// for (let i = 0; i < array.length; i++) {
+
+//     if(array[i]==number){
+//         alert("this have ");
+//         break;
+//     }else{
+//         console.log("yoxdu");
+//     }
+// }
