@@ -116,3 +116,56 @@
 //         console.log("yoxdu");
 //     }
 // }
+
+// 15) 
+
+//     const students = [
+//     { name: "Ali", scores: [90, 85, 92] },
+//     { name: "Mammal", scores: [75, 80, 85] },
+//     { name: "Camil", scores : [90, 95, 85] },
+//     { name: "Davud", scores: [100, 100, 100] }
+//   ]; 
+
+//   for (let i = 0; i < students.length; i++) {
+//     let sum = 0;
+//     let average = 0;
+//     let score = [];
+//     for (let j = 0; j < (students[i].scores).length; j++) {
+//       sum+= students[i].scores[j];
+//     }
+
+//     average = sum / (students[i].scores).length;
+//     console.log(`${students[i].name}, average: ${average}`);
+
+//     if(average > 90){
+//         console.log(`${students[i].name}, average: ${average}`);
+//     }
+    
+//   }
+
+//   16) Write a JavaScript function to check if a given string is a palindrome (reads the same forwards and backwards).
+
+//     let string = prompt("enter a word: ");
+//     let newstr = "";
+
+//     for (let i = 0; i < string.length; i++) {
+
+//     let char = string[i].toLowerCase();
+
+//     if (char >= 'a' && char <= 'z' || char >= '0' && char <= '9') {
+//         newstr += char;
+//     }
+//    }
+//     let isPalindrome = true;
+//     for (let i = 0; i < newstr.length / 2; i++) {
+//         if (newstr[i] !== newstr[newstr.length - 1 - i]) {
+//         isPalindrome = false;
+//             break;
+//         }
+//     }
+
+//     if (isPalindrome) {
+//         alert("this string is a palindrome");
+//     }     else {
+//         alert("this string is not a palindrome");
+//     }
