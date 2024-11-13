@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+button{
+    background-color: rgb(59, 132, 166);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: rgb(59, 132, 166);
+    height: 100vh;
+    width: 0%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    transition: width 0.5s;
+}
+
+.menu ul{
+    padding-top: 45px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.menu li a{
+    color: white;
+    font-size: 17px;
+}
+
+.menu li{
+    padding: 7px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu li:hover{
+    background-color: rgb(41, 92, 115);
+}
+
+.menu span{
+    right: 20px;
+    color: white;
+    top: 20px;
+    font-size: 18px;
+    position: absolute;
+    cursor: pointer;
+}
