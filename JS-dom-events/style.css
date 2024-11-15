@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container, .products-container {
+    width: 90%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form-container label {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    display: block;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 4px;
+}
+
+.add-btn {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: rgb(2, 97, 2);
+}
+
+.products-container {
+    text-align: center;
+}
+
+.products-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.product-card {
+    width: 240px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 8px;
+    margin: 10px;
+    padding-bottom: 15px;
+    background-color: white;
+    text-align: center;
+    display:inline-block;
+}
+
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h2 {
+    font-size: 17px;
+    margin: 10px 0;
+    color: black;
+}
+
+.product-card .price {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.product-card .description {
+    font-size: 15px;
+    color: rgb(54, 54, 54);
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+.details-btn {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.details-btn:hover {
+    background-color: rgb(1, 1, 203);
+}
+
+.delete-btn:hover {
+    background-color: rgb(213, 3, 3);
+}
