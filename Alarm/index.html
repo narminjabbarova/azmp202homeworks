@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="timer-inputs">
+          <input type="number" id="hours" placeholder="Enter hour" min="0" max="24">
+          <input type="number" id="minutes" placeholder="Enter minute" min="0" max="59">
+          <input type="number" id="seconds" placeholder="Enter second" min="0" max="59">
+        </div>
+        
+        <div class="countdown-display">
+            <span id="countdown-text">0 hr: 0 min: 0 sec</span>
+        </div>
+
+        <button id="start-btn">START</button>
+
+        <div id="celebration" style="display: none;">
+          <img src="https://media.tenor.com/T1sBNd96qZ0AAAAM/cat-party.gif" alt="Celebration">
+        </div>
+
+      </div>
+      
+      <audio id="alarm-sound" src="./assets/sounds/clock-alarm-8761.mp3" preload="auto"></audio>
+      
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
