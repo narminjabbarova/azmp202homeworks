@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.4rem 3rem;
+  }
+  nav a{
+    color: rgb(255, 193, 7);
+  }
+  h2{
+    font-size: 30px;
+    color: darkred;
+  }
+  
+  input{
+    width: 20rem;
+    height: 2.5rem;
+    padding: 0 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid rgb(216, 216, 216);
+  }
+  
+  .pages{
+    font-size: 1.3rem;
+    display: flex;
+    gap: 20px;
+  }
