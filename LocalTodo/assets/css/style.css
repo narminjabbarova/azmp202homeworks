@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+.error-input{
+    color: red;
+}
+.border-input{
+    border: 3px solid red;
+}
