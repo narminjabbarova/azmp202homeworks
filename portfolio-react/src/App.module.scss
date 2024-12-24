@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  // Header
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .header .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header .nav a {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #ff9900;
+    }
+  }
+  
+  // Buttons
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    transition: background 0.3s ease;
+  
+    &:hover {
+      background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    }
+  }
+  
+  
+  // About 
+  
+  .about {
+    text-align: center;
+  
+    .about-title {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ff9900;
+    }
+  
+    .about-description {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 30px;
+    }
+  
+    .about-stats {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+  
+      .stat-item {
+        text-align: center;
+  
+        .stat-number {
+          font-size: 2rem;
+          font-weight: bold;
+          color: #ff9900;
+        }
+  
+        .stat-title {
+          font-size: 1rem;
+          color: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+  }
+  
+  
+  // Footer
+  
+  .footer {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+  
+    p {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .header .nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .about .about-stats {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about .about-title {
+      font-size: 2rem;
+    }
+  
+    .header .logo {
+      font-size: 1.2rem;
+    }
+  }
+  

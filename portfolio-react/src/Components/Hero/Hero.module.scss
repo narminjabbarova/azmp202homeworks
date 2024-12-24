@@ -1,0 +1,100 @@
+.hero {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .profileImage {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 65px;
+        margin-bottom: 20px;
+
+        .highlight {
+            font-weight: 600;
+            font-size: 65px;
+            background: linear-gradient(to right, #a855f7, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .description {
+        font-size: 18px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        .connectButton,
+        .resumeButton {
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: transform 0.2s;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .connectButton {
+            background: linear-gradient(to right, #a855f7, #f59e0b);
+            color: white;
+            border-radius: 40px;
+            border: none;
+        }
+
+        .connectButton:hover {
+            border: 2.5px solid white;
+        }
+
+        .resumeButton {
+            color: white;
+            background: black;
+            border-radius: 40px;
+            border: 2.5px solid white;
+        }
+
+        .resumeButton:hover {
+            border: 2.5px solid #a855f7;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+
+        .connectButton,
+        .resumeButton {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    color: #fff;
+  
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    .nav ul {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        
+        li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: 0.5s;
+  
+        &:hover {
+          color: #a855f7;
+        }
+      }
+    }
+  
+    .connectBtn {
+      background: linear-gradient(to right, #a855f7, #f59e0b);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: transform 0.2s;
+
+  
+      &:hover {
+        transform: scale(1.05);
+        border: 2.5px solid white;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nav ul {
+      flex-direction: column;
+    }
+  }
+  
