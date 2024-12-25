@@ -10,7 +10,8 @@
     }
   
     .heading {
-      font-size: 2rem;
+      font-size: 60px;
+      font-weight: 600;
       margin-bottom: 30px;
   
       span {
@@ -31,24 +32,33 @@
         display: flex;
         justify-content: space-around;
         margin-top: 30px;
-  
         div {
             .highlight{
                 background: linear-gradient(to right, #a855f7, #f59e0b);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: transform 0.5s;
             }
           h3 {
-            font-size: 1.8rem;
+            font-size: 45px;
+            font-weight: 600;
             margin-bottom: 5px;
           }
   
           p {
-            font-size: 0.9rem;
+            font-size: 1.3rem;
+            font-weight: 500;
             color: #aaa;
           }
         }
+        h3:hover{
+          transform: scale(1.2);
+        }
+
       }
+     
+    
+
     }
   }
   

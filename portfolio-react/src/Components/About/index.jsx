@@ -5,9 +5,9 @@ const About = () => {
   return (
     <section className={styles.about} id="about">
       <div className={styles.container}>
-        <h2 className={styles.heading}>
+        <h1 className={styles.heading}>
           About <span>me</span>
-        </h2>
+        </h1>
         <div className={styles.content}>
           <p>I am a passionate Junior Front-End Developer with a solid foundation in HTML, CSS, and JavaScript, focused on crafting responsive, user-friendly web interfaces. My journey into front-end development has been fueled by a deep interest in turning ideas into interactive and engaging digital experiences. Over time, I have developed strong skills ibuilding clean, structured, and visually appealinwebsites. Earning certifications like thInformation Technology Specialist in HTML and CShas further reinforced my expertise and dedicatioto continuous learning.</p>
           <p>
@@ -22,11 +22,11 @@ const About = () => {
           </p>
           <div className={styles.stats}>
             <div>
-              <h3 className={styles.highlight}>2+</h3>
+              <h3 className={styles.highlight}>5+</h3>
               <p>Years of Experience</p>
             </div>
             <div>
-              <h3 className={styles.highlight}>20+</h3>
+              <h3 className={styles.highlight}>70+</h3>
               <p>Projects Completed</p>
             </div>
             <div>

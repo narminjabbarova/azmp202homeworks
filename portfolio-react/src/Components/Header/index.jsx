@@ -8,6 +8,7 @@ const Header = () => {
       <div className={styles.logo}>My Portfolio</div>
       <nav className={styles.nav}>
         <ul>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#about">About Me</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>

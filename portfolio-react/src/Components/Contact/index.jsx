@@ -10,7 +10,7 @@ const Contact = () => {
         </h2>
         <div className={styles.wrapper}>
           <div className={styles.info}>
-            <h3>Let's talk</h3>
+            <h1>Let's talk</h1>
             <p>
               I'm currently available to take on new projects, so feel free to
               send me a message about anything that you want me to work on. You

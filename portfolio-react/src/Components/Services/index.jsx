@@ -14,13 +14,13 @@ const Services = () => {
   return (
     <section className={styles.services} id="services">
       <div className={styles.container}>
-        <h2 className={styles.heading}>
+        <h1 className={styles.heading}>
           My <span>Services</span>
-        </h2>
+        </h1>
         <div className={styles.cards}>
           {services.map((service) => (
             <div key={service.id} className={styles.card}>
-              <h3>{service.title}</h3>
+              <h2>{service.title}</h2>
               <p>{service.description}</p>
               <a href="#" className={styles.link}>
                 {service.link} →
