@@ -1,0 +1,36 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    background-color: pink;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 570;
+}
+nav h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+a.active{
+    color: rgb(66, 136, 136);
+}
