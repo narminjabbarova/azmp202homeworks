@@ -1,18 +1,16 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import ClientFooter from './Footer'
-import ClientHeader from './clientHeader'
-import Hero from './Hero'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import ClientFooter from "./Footer";
+import ClientHeader from "./clientHeader";
 
 const ClientLayout = () => {
   return (
     <>
       <ClientHeader />
-      <Hero/>
-      <ClientFooter />
       <Outlet />
+      <ClientFooter />
     </>
-  )
-}
+  );
+};
 
-export default ClientLayout
+export default ClientLayout;

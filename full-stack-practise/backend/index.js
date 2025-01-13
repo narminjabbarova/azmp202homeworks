@@ -13,12 +13,12 @@ const ProductSchema = new Schema({
   price: {type: Number, required: true}
 })
 
-const ProductModel = mongoose.model('hello', ProductSchema)
+const ProductModel = mongoose.model('Products', ProductSchema)
 
 app.get('/products', async(req, res) => {
   try {
     const products = await ProductModel.find({})
-    res.status.send({data: products, message: 'success'})
+    res.status(200).send({data: products, message: 'success'})
     console.log(products);
     
   } catch (error) {
