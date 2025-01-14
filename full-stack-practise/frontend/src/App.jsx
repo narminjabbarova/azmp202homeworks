@@ -6,7 +6,6 @@ import Products from './pages/client/Products'
 import ClientLayout from './layouts/client/index'
 import AdminLayout from './layouts/admin'
 import DashBoard from './pages/admin/DashBoard'
-import AdminProducts from './pages/admin/AdminProducts'
 import AddProduct from './pages/admin/Add'
 
 
@@ -24,7 +23,6 @@ function App() {
 
         <Route path='/admin' element={<AdminLayout />}>
           <Route index element={<DashBoard />} />
-          <Route path='products' element={<AdminProducts />} />
           <Route path='addproduct' element={<AddProduct />} />
 
         </Route>
